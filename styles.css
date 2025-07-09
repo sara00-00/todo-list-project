@@ -1,0 +1,90 @@
+ 
+
+
+  body {
+    background-image: url("todo list.jpeg"); /* Make sure this path is correct */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#todo-container {
+    background: rgba(196, 162, 193, 0.8); /* Semi-transparent pink background */
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid #fedaff; /* Light border */
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+}
+
+#header {
+    margin: 5px;
+    font-size: 20px;
+}
+
+h1 {
+    margin-bottom: 20px; 
+}
+
+#input-box {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+#input-button {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a81ad3; /* Purple button */
+    color: white; /* Text color */
+}
+
+#input-button:hover {
+    background-color: #e46af7; /* Lighter purple on hover */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+}
+
+li {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.2); /* Slightly transparent background for list items */
+}
+
+.edit-btn, .delete-btn {
+    float: right;
+    color: white;
+    cursor: pointer;
+    margin: 3px 5px;
+    border: none;
+    padding: 3px 5px;
+    background: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    border: 1px solid gray;
+}
+    
+
+  
